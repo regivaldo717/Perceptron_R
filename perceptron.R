@@ -17,6 +17,8 @@ soma_dot <- function(e,p){
 }
 s<- soma_dot(entrada,peso)
 
+
+#Step fuction degree
 stepfunction = function( soma){
   if (soma>=1){
     return(1)

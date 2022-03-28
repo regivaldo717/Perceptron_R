@@ -2,7 +2,7 @@
 entrada<- matrix(c(0,0,0,1,1,0,1,1), nrow = 4,ncol = 2, byrow = T)
 saida<-  matrix(c(0,0,0,1))
 peso<- matrix(c(0.0,0.0))
-taxa_Aprendizagem<- 0.0001
+taxa_Aprendizagem<- 0.001
 
 stepFunction = function(calc){
   if(calc >1 ){

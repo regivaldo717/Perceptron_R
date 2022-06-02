@@ -26,7 +26,6 @@ erroCamadaSaida<- saidas - camadaSaida
 mediaAbsoluta<- mean(abs(erroCamadaSaida))
 
 derivadaSaida<- sigmoideDerivada(camadaSaida)
-deltaSaida<- erroCamadaSaida * 
-
-
+deltaSaida<- erroCamadaSaida  
 }
+
